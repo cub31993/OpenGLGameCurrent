@@ -4,11 +4,9 @@ package se.kth.openglgame;
  * Created with IntelliJ IDEA.
  * User: marek
  * Date: 2013-10-12
- * Time: 19:35
+ * Time: 21:24
  * To change this template use File | Settings | File Templates.
  */
-public class Main {
-    public static void main(String args[]) {
-              new Game(false, 800, 600);
-    }
+public class Constants {
+    public static final String WINDOW_TITLE = "New Game";
 }
