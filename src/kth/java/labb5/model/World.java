@@ -19,23 +19,9 @@ public class World {
     }
 
     public ArrayList<Block> getDrawableBlocks(int width, int height) {
-        int x = (int)player.getPosition().x - width;
-        int y = (int)player.getPosition().y - height;
-        if (x < 0) {
-            x = 0;
-        }
-        if (y < 0) {
-            y = 0;
-        }
 
         ArrayList<Block> blocks = new ArrayList<Block>();
-        Block block;
 
-        for(int i = 0; i < 3; i++) {
-
-            block = level.getBlocks()[i];
-            blocks.add(block);
-        }
 
         return blocks;
     }
