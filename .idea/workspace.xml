@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04550333-e498-4d2f-9373-6b2471f36996" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/model/Player.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/model/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/controller/PlayerController.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/controller/PlayerController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="2DplatformOpenGL.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381689200031" ignored="false" />
+    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690279925" ignored="false" />
     <file path="/Player.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690134076" ignored="false" />
     <file path="/fragment.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381688521363" ignored="false" />
     <file path="/PlayerController.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690244232" ignored="false" />
-    <file path="/WorldRenderer.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690058350" ignored="false" />
+    <file path="/WorldRenderer.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690408399" ignored="false" />
     <file path="/Main.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381668409321" ignored="false" />
     <file path="/Window.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381668327137" ignored="false" />
     <file path="/GameScreen.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381689954527" ignored="false" />
@@ -97,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldRenderer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="WorldRenderer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+            <state line="26" column="45" selection-start="482" selection-end="482" vertical-scroll-proportion="0.48411828">
               <folding />
             </state>
           </provider>
@@ -124,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="38" selection-start="69" selection-end="69" vertical-scroll-proportion="0.03723987">
+            <state line="2" column="38" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,9 +181,9 @@
         <option value="$PROJECT_DIR$/src/kth/java/labb5/model/Block.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/model/World.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java" />
-        <option value="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/model/Player.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/controller/PlayerController.java" />
+        <option value="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" />
       </list>
     </option>
   </component>
@@ -440,7 +437,11 @@
       <created>1381689205401</created>
       <updated>1381689205401</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix">
+      <created>1381690283626</created>
+      <updated>1381690283626</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -621,9 +622,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Block.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+        <state line="5" column="20" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="38" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -635,16 +643,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Block.java">
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="69" selection-end="69" vertical-scroll-proportion="0.03723987">
+        <state line="26" column="45" selection-start="482" selection-end="482" vertical-scroll-proportion="0.48411828">
           <folding />
         </state>
       </provider>

@@ -20,10 +20,10 @@ public class WorldRenderer {
     }
 
     public void renderPlayer() {
-
+      //get player from world and render
     }
 
     public void renderBlocks() {
-
+        //get all blocks in camera and render
     }
 }
