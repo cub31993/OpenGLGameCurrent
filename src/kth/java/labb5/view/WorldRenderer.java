@@ -2,6 +2,10 @@ package kth.java.labb5.view;
 
 import kth.java.labb5.model.World;
 
+/*
+view class
+render everything in world
+ */
 public class WorldRenderer {
 
     public World world;

@@ -3,6 +3,10 @@ package kth.java.labb5.model;
 import org.lwjgl.util.Rectangle;
 import org.lwjgl.util.vector.Vector2f;
 
+/*
+model class
+player, standard fields etc
+ */
 public class Player {
 
     public static final int SIZE = 64;
@@ -43,20 +47,6 @@ public class Player {
 
     public void update() {
 
-        //       velocity.x = 0.0f;
-        //       velocity.y = 0.0f;
-
-        if (velocity.x > MAX_VEL)
-            velocity.x = MAX_VEL;
-        if (velocity.x < -MAX_VEL)
-            velocity.x = -MAX_VEL;
-
-        if (velocity.y > MAX_VEL)
-            velocity.y = MAX_VEL;
-        if (velocity.y > MAX_VEL)
-            velocity.y = MAX_VEL;
-
-        position.x -= velocity.x;
-        position.y -= velocity.y;
+        //move player here
     }
 }

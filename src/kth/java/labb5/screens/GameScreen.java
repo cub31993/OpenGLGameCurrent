@@ -16,7 +16,9 @@ public class GameScreen {
         controller = new PlayerController(world);
     }
 
+    //root tick
     public void update() {
+
         controller.update();
         renderer.render();
     }
