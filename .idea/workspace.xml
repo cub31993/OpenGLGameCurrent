@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04550333-e498-4d2f-9373-6b2471f36996" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/levels/level-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/levels/level-2.png" afterPath="$PROJECT_DIR$/assets/levels/level-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="2DplatformOpenGL.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381755171017" ignored="false" />
+    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381755235587" ignored="false" />
     <file path="/Player.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690134076" ignored="false" />
     <file path="/fragment.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381688521363" ignored="false" />
     <file path="/PlayerController.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752980570" ignored="false" />
@@ -140,7 +140,7 @@
       <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="30" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.66548043">
+            <state line="54" column="33" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.7259787">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -517,7 +517,11 @@
       <created>1381755175085</created>
       <updated>1381755175085</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Level from file, map is upside down :D">
+      <created>1381755238914</created>
+      <updated>1381755238914</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -728,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="30" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.66548043">
+        <state line="54" column="33" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.7259787">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
