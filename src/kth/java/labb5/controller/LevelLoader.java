@@ -16,11 +16,10 @@ public class LevelLoader {
         Level level = new Level();
 
         try {
-            BufferedImage image = ImageIO.read(new File("assets/levels/level-" + number + ".jpg"));
+            BufferedImage image = ImageIO.read(new File("assets/levels/level-" + number + ".png"));
             int w = image.getWidth();
             int h = image.getHeight();
 
-            System.out.println(w + " " + h);
             level.setDimensions(w, h);
             image.getRGB(0, 0, w, h, level.getBlocks(), 0, w);
         } catch (IOException e) {

@@ -28,14 +28,13 @@ public class WorldRenderer {
 
     public void renderBlocks() {
         for(Block b: world.getDrawableBlocks(0, 0)) {
-            System.out.println("Rendering block" + b.getPosition().x);
 
-            glColor3f(0.2f,0.2f,1.0f);
+            glColor3f(1f,1f,1f);
             glBegin(GL_QUADS);
-            glVertex2f(b.getPosition().x, b.getPosition().y);
-            glVertex2f(b.getPosition().x + 32, b.getPosition().y);
-            glVertex2f(b.getPosition().x + 32, b.getPosition().y + 32);
-            glVertex2f(b.getPosition().x, b.getPosition().y + 32);
+                glVertex2f(b.x, b.y);
+                glVertex2f(b.x + 64, b.y);
+                glVertex2f(b.x + 64, b.y + 64);
+                glVertex2f(b.x, b.y + 64);
             glEnd();
         }
     }

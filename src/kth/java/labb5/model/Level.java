@@ -16,17 +16,6 @@ public class Level {
         objects = new ArrayList<Block>();
     }
 
-    public void initObjects() {
-
-        for(int y = 0; y < height; y++) {
-            for(int x = 0; x < width; x++) {
-                if(blocks[x + y * width] != -1) {
-                    objects.add(new Block(x, y));
-                }
-            }
-        }
-    }
-
     public int getWidth() {
         return width;
     }
@@ -56,6 +45,16 @@ public class Level {
 
     public void setSpanPosition(Vector2f spanPosition) {
         this.spanPosition = spanPosition;
+    }
+
+    public void initObjects() {
+        for(int y = 0; y < height; y++) {
+            for(int x = 0; x < width; x++) {
+                if(blocks[x + y * width] != -1) {
+                    objects.add(new Block(x, y));
+                }
+            }
+        }
     }
 
     public String toString() {

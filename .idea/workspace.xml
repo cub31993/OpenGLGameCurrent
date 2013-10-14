@@ -2,24 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04550333-e498-4d2f-9373-6b2471f36996" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/levels/level-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/levels/level-2.jpg" />
+      <change type="DELETED" beforePath="E:\Dropbox\Java\Labb5\assets\levels\level-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\Dropbox\Java\Labb5\assets\levels\level-2.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/model/Block.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/model/Block.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/model/Level.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/model/Level.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/model/World.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/model/World.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="2DplatformOpenGL.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381753022841" ignored="false" />
+    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381753068907" ignored="false" />
     <file path="/Player.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690134076" ignored="false" />
     <file path="/fragment.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381688521363" ignored="false" />
     <file path="/PlayerController.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752980570" ignored="false" />
-    <file path="/WorldRenderer.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752954102" ignored="false" />
+    <file path="/WorldRenderer.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381754466213" ignored="false" />
     <file path="/Main.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381668409321" ignored="false" />
     <file path="/Window.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381668327137" ignored="false" />
     <file path="/GameScreen.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381689954527" ignored="false" />
-    <file path="/World.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752812673" ignored="false" />
-    <file path="/LevelLoader.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381751938697" ignored="false" />
-    <file path="/Level.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752838346" ignored="false" />
-    <file path="/Block.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752690722" ignored="false" />
+    <file path="/World.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381754196259" ignored="false" />
+    <file path="/LevelLoader.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381754144167" ignored="false" />
+    <file path="/Level.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381754068202" ignored="false" />
+    <file path="/Block.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381753600370" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +106,7 @@
       <file leaf-file-name="WorldRenderer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="332" selection-end="338" vertical-scroll-proportion="0.0">
+            <state line="36" column="42" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,7 +117,7 @@
       <file leaf-file-name="Block.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Block.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="58" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+            <state line="14" column="58" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +126,7 @@
       <file leaf-file-name="World.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+            <state line="27" column="28" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +135,7 @@
       <file leaf-file-name="LevelLoader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="58" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="20" column="181" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="22" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+            <state line="52" column="30" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.66548043">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,10 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameScreen.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GameScreen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="27" selection-start="557" selection-end="557" vertical-scroll-proportion="0.64735097">
+            <state line="25" column="27" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -197,13 +202,13 @@
         <option value="$PROJECT_DIR$/src/kth/java/labb5/Main.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/Window.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/model/Player.java" />
-        <option value="$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java" />
-        <option value="$PROJECT_DIR$/src/kth/java/labb5/model/Block.java" />
+        <option value="$PROJECT_DIR$/src/kth/java/labb5/controller/PlayerController.java" />
+        <option value="$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/model/World.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/model/Level.java" />
         <option value="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" />
-        <option value="$PROJECT_DIR$/src/kth/java/labb5/controller/PlayerController.java" />
-        <option value="$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java" />
+        <option value="$PROJECT_DIR$/src/kth/java/labb5/model/Block.java" />
+        <option value="$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java" />
       </list>
     </option>
   </component>
@@ -506,18 +511,22 @@
       <created>1381753028400</created>
       <updated>1381753028400</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix">
+      <created>1381753071679</created>
+      <updated>1381753071679</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1060" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37380192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37380192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -526,7 +535,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18489583" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18489583" sideWeight="0.62619805" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -654,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="41" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/program/jdk/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="987" column="0" selection-start="40289" selection-end="40289" vertical-scroll-proportion="0.33274022">
@@ -668,44 +670,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="58" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="22" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="58" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+        <state line="25" column="27" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/World.java">
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+        <state line="36" column="41" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="332" selection-end="338" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,10 +691,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/screens/GameScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="557" selection-end="557" vertical-scroll-proportion="0.64735097">
+        <state line="27" column="28" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="58" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="42" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="181" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kth/java/labb5/model/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="30" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.66548043">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -20,12 +20,12 @@ public class World {
     }
 
     public ArrayList<Block> getDrawableBlocks(int width, int height) {
-
         return level.getObjects();
     }
 
     private void createWorld() {
         level = new LevelLoader().loadLevel(2);
+        level.initObjects();
         System.out.println(level.toString());
         player = new Player(new Vector2f(0, 0));
     }

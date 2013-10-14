@@ -5,16 +5,14 @@ import org.lwjgl.util.vector.Vector2f;
 
 public class Block {
 
-    Vector2f position = new Vector2f();
+    public int x;
+    public int y;
     Rectangle bounds;
 
     public Block(int x, int y) {
-        this.position = new Vector2f(x, y);
-        this.bounds = new Rectangle(x, y, 32, 32);
-    }
-
-    public Vector2f getPosition() {
-        return position;
+        this.x = x << 6;
+        this.y = y << 6;
+        this.bounds = new Rectangle(this.x, this.y, 64, 64);
     }
 
     public Rectangle getBounds() {
