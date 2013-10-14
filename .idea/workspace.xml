@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04550333-e498-4d2f-9373-6b2471f36996" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/levels/level-2.png" afterPath="$PROJECT_DIR$/assets/levels/level-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="2DplatformOpenGL.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381755235587" ignored="false" />
+    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381755450451" ignored="false" />
     <file path="/Player.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690134076" ignored="false" />
     <file path="/fragment.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381688521363" ignored="false" />
     <file path="/PlayerController.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752980570" ignored="false" />
@@ -521,7 +520,11 @@
       <created>1381755238914</created>
       <updated>1381755238914</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Level from file, map is upside down :D">
+      <created>1381755452127</created>
+      <updated>1381755452127</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
