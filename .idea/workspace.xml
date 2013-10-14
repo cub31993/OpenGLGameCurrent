@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04550333-e498-4d2f-9373-6b2471f36996" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Dropbox\Java\Labb5\assets\levels\level-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\Dropbox\Java\Labb5\assets\levels\level-2.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/model/Block.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/model/Block.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/model/Level.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/model/Level.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/controller/LevelLoader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/model/World.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/model/World.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" afterPath="$PROJECT_DIR$/src/kth/java/labb5/view/WorldRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/levels/level-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="2DplatformOpenGL.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381753068907" ignored="false" />
+    <file path="/Dummy.txt" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381755171017" ignored="false" />
     <file path="/Player.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381690134076" ignored="false" />
     <file path="/fragment.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381688521363" ignored="false" />
     <file path="/PlayerController.java" changelist="04550333-e498-4d2f-9373-6b2471f36996" time="1381752980570" ignored="false" />
@@ -360,6 +354,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="levels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -515,12 +513,16 @@
       <created>1381753071679</created>
       <updated>1381753071679</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Level from file, map is upside down :D">
+      <created>1381755175085</created>
+      <updated>1381755175085</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1060" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -535,7 +537,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18489583" sideWeight="0.62619805" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18489583" sideWeight="0.62619805" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -586,7 +588,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level from file, map is upside down :D" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -603,6 +605,7 @@
     <MESSAGE value="t" />
     <MESSAGE value="some more file setup" />
     <MESSAGE value="fix" />
+    <MESSAGE value="Level from file, map is upside down :D" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
