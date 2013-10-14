@@ -8,9 +8,9 @@ public class Block {
     Vector2f position = new Vector2f();
     Rectangle bounds;
 
-    public Block(Vector2f pos) {
-        this.position = pos;
-        bounds = new Rectangle((int)pos.x, (int)pos.y, 32, 32);
+    public Block(int x, int y) {
+        this.position = new Vector2f(x, y);
+        this.bounds = new Rectangle(x, y, 32, 32);
     }
 
     public Vector2f getPosition() {

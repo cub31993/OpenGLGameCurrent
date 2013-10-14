@@ -2,43 +2,52 @@ package kth.java.labb5.model;
 
 import org.lwjgl.util.vector.Vector2f;
 
+import java.util.ArrayList;
+
 public class Level {
 
     private int width;
     private int height;
-    private Block[] blocks;
+    private int[] blocks;
+    private ArrayList<Block> objects;
     private Vector2f spanPosition;
+
+    public Level() {
+        objects = new ArrayList<Block>();
+    }
+
+    public void initObjects() {
+
+        for(int y = 0; y < height; y++) {
+            for(int x = 0; x < width; x++) {
+                if(blocks[x + y * width] != -1) {
+                    objects.add(new Block(x, y));
+                }
+            }
+        }
+    }
 
     public int getWidth() {
         return width;
     }
 
-    public void setWidth(int width) {
+    public void setDimensions(int width, int height) {
         this.width = width;
+        this.height = height;
+        this.blocks = null;
+        this.blocks = new int[width * height];
     }
 
     public int getHeight() {
         return height;
     }
 
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public Block[] getBlocks() {
+    public int[] getBlocks() {
         return blocks;
     }
 
-    public void setBlocks(Block[] blocks) {
-        this.blocks = blocks;
-    }
-
-    public Level() {
-        loadDemoLevel();
-    }
-
-    public Block get(int x, int y) {
-        return blocks[x + y];
+    public ArrayList<Block> getObjects() {
+        return objects;
     }
 
     public Vector2f getSpanPosition() {
@@ -49,13 +58,13 @@ public class Level {
         this.spanPosition = spanPosition;
     }
 
-    private void loadDemoLevel() {
-        width = 1;
-        height = 2;
-        blocks = new Block[width + height];
-
-        blocks[0] = new Block(new Vector2f(0, 100));
-        blocks[1] = new Block(new Vector2f(32, 100));
-        blocks[2] = new Block(new Vector2f(64, 100));
+    public String toString() {
+        String t = "";
+        for(int y = 0; y < height; y++) {
+            for(int x = 0; x < width; x++) {
+                t += "tile " + x + ":" + y + " - " + blocks[x + y * width] + "\n";
+            }
+        }
+        return t;
     }
 }

@@ -6,8 +6,8 @@ import kth.java.labb5.view.WorldRenderer;
 
 public class GameScreen {
 
-    private WorldRenderer renderer;
     private World world;
+    private WorldRenderer renderer;
     private PlayerController controller;
 
     public GameScreen() {
